@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Blog de Stitch - Ohana signifie famille</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="images/logo-stitch.jpg" alt="Stitch Logo" class="stitch-logo">
+            </div>
+            <div class="nav-links">
+                <a href="#accueil">Accueil</a>
+                <a href="#origines">Mes Origines</a>
+                <a href="#aventures">Aventures</a>
+                <a href="#activites">Activités</a>
+                <a href="#ohana">Ohana</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <img src="images/gif-hero.gif" alt="gif stitch">
+                <h1>Aloha! Je suis Stitch!</h1>
+                <img src="images/bannière-hero.png" alt="">
+                <p class="subtitle">Bienvenue dans mon petit coin de paradis sur Internet!</p>
+                <div class="stitch-animation"></div>
+            </div>
+        </section>
+
+        <section id="origines" class="section">
+            <h2>Mes Origines</h2>
+            <div class="origin-story">
+                <div class="story-card" data-story="1">
+                    <h3>Expérience 626</h3>
+                    <p class="story-preview">Cliquez pour découvrir mon histoire...</p>
+                    <p class="story-content hidden">Je suis né dans un laboratoire spatial... Mais ne vous inquiétez pas, je suis devenu gentil ! 😊</p>
+                    <a href="articles/origines.html" class="read-more-btn">Lire l'article complet →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="aventures" class="section">
+            <h2>Aventures Intergalactiques</h2>
+            <div class="adventure-grid">
+                <div class="adventure-card" data-article="surf">
+                    <div class="card-image-container">
+                        <img src="images/surf-stitch.jpg" alt="Stitch surfant">
+                        <div class="card-overlay">
+                            <span class="emoji-icon">🏄‍♂️</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Surf à Hawaï</h3>
+                        <p>Découvrez comment j'ai appris à surfer avec Lilo ! De mes premières chutes à mes techniques spéciales à quatre bras, une aventure pleine d'éclaboussures !</p>
+                        <div class="card-tags">
+                            <span class="card-tag">Surf</span>
+                            <span class="card-tag">Hawaï</span>
+                            <span class="card-tag">Fun</span>
+                        </div>
+                        <a href="articles/surf-aventures.html" class="read-more-btn">Lire l'article complet →</a>
+                    </div>
+                </div>
+
+                <div class="adventure-card" data-article="space">
+                    <div class="card-image-container">
+                        <img src="images/stitch-space.webp" alt="Stitch dans l'espace">
+                        <div class="card-overlay">
+                            <span class="emoji-icon">🚀</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Mission Spatiale</h3>
+                        <p>Mon retour dans l'espace, cette fois en tant que héros ! Une mission extraordinaire pour aider d'autres expériences comme moi.</p>
+                        <div class="card-tags">
+                            <span class="card-tag">Espace</span>
+                            <span class="card-tag">Mission</span>
+                            <span class="card-tag">Aventure</span>
+                        </div>
+                        <a href="articles/missions-spatiales.html" class="read-more-btn">Lire l'article complet →</a>
+                    </div>
+                </div>
+
+                <div class="adventure-card" data-article="cuisine">
+                    <div class="card-image-container">
+                        <img src="images/stitch-cuisine.jpg" alt="Stitch en train de cuisiner">
+                        <div class="card-overlay">
+                            <span class="emoji-icon">👨‍🍳</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Mes Recettes Préférées</h3>
+                        <p>Découvrez mes aventures culinaires et mes recettes spéciales ! De la cuisine hawaïenne aux expérimentations intergalactiques.</p>
+                        <div class="card-tags">
+                            <span class="card-tag">Cuisine</span>
+                            <span class="card-tag">Recettes</span>
+                            <span class="card-tag">Hawaï</span>
+                        </div>
+                        <a href="articles/recettes-cuisine.html" class="read-more-btn">Lire l'article complet →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="activites" class="section">
+            <h2>Cahier d'Activités</h2>
+            <div class="activities-container">
+                <div class="activity-card quiz-box">
+                    <div class="activity-image">
+                        <img src="images/quizz.jpg" alt="Quiz Stitch">
+                        <div class="activity-overlay">
+                            <span class="activity-emoji">🎯</span>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Quiz Stitch</h3>
+                        <p>Teste tes connaissances sur Stitch et son ohana ! Es-tu un véritable expert de l'expérience 626 ?</p>
+                        <div class="activity-features">
+                            <span class="feature">10 Questions</span>
+                            <span class="feature">Médailles à gagner</span>
+                            <span class="feature">Mode Histoire</span>
+                        </div>
+                        <a href="activites/quiz.html" class="activity-btn">Commencer le Quiz →</a>
+                    </div>
+                </div>
+
+                <div class="activity-card craft-box">
+                    <div class="activity-image">
+                        <img src="images/brico.jpg" alt="Bricolages Ohana">
+                        <div class="activity-overlay">
+                            <span class="activity-emoji">✂️</span>
+                        </div>
+                    </div>
+                    <div class="activity-content">
+                        <h3>Bricolages Ohana</h3>
+                        <p>Crée ton propre univers Stitch avec nos tutoriels de bricolage ! Des projets amusants pour toute la famille.</p>
+                        <div class="activity-features">
+                            <span class="feature">Projets Faciles</span>
+                            <span class="feature">Matériel Simple</span>
+                            <span class="feature">Pour Tous</span>
+                        </div>
+                        <a href="activites/bricolages.html" class="activity-btn">Découvrir les Projets →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ohana" class="section">
+            <h2>Messages de Ohana</h2>
+            <div class="message-board">
+                <div class="daily-message">
+                    <p class="quote">"Ohana signifie famille, et famille signifie que personne ne doit être abandonné ni oublié."</p>
+                </div>
+            </div>
+            <div class="ask-stitch">
+                <h3>Pose ta question à Stitch!</h3>
+                <form id="question-form">
+                    <input type="text" id="question" placeholder="Ta question pour Stitch...">
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2024 Le Blog de Stitch - Fait avec par Ohana</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
