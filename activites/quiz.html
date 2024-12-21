@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Stitch - Blog de Stitch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/quiz.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html" class="nav-logo">
+            <img src="../images/logo-stitch.jpg" alt="Logo Stitch">
+        </a>
+        <div class="nav-links">
+            <a href="../index.html">Accueil</a>
+            <a href="../index.html#aventures">Aventures</a>
+            <a href="../index.html#quiz">Quiz</a>
+        </div>
+    </nav>
+
+    <main class="quiz-main">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1>Quiz Stitch</h1>
+                <p>Teste tes connaissances sur Stitch et son ohana !</p>
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <span class="progress-text">Question <span id="current-question">1</span>/10</span>
+                </div>
+            </div>
+
+            <div class="quiz-content" id="quiz-content">
+                <!-- Le contenu du quiz sera chargé dynamiquement -->
+            </div>
+
+            <div class="quiz-results hidden" id="quiz-results">
+                <h2>Résultats</h2>
+                <div class="results-content">
+                    <div class="score-display">
+                        <div class="score-circle">
+                            <span class="score-number">0</span>
+                            <span class="score-text">points</span>
+                        </div>
+                    </div>
+                    <div class="medal-display">
+                        <img src="" alt="Médaille" class="medal-image">
+                        <p class="medal-text"></p>
+                    </div>
+                    <button class="restart-btn">Recommencer le Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <aside class="quiz-sidebar">
+            <div class="medals-showcase">
+                <h3>Médailles à Gagner</h3>
+                <div class="medal-list">
+                    <div class="medal-item">
+                        <img src="../images/or.png" alt="Médaille d'or">
+                        <p>Expert Stitch (10/10)</p>
+                    </div>
+                    <div class="medal-item">
+                        <img src="../images/argent.png" alt="Médaille d'argent">
+                        <p>Fan Dévoué (7-9/10)</p>
+                    </div>
+                    <div class="medal-item">
+                        <img src="../images/bronze.png" alt="Médaille de bronze">
+                        <p>Apprenti Ohana (4-6/10)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="fun-facts">
+                <h3>Le Savais-tu ?</h3>
+                <div class="fact-carousel">
+                    <!-- Les faits seront chargés dynamiquement -->
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <script src="../js/quiz.js"></script>
+</body>
+</html>

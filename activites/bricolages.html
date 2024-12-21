@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bricolages Ohana - Blog de Stitch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/bricolages.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html" class="nav-logo">
+            <img src="../images/logo-stitch.jpg" alt="Logo Stitch">
+        </a>
+        <div class="nav-links">
+            <a href="../index.html">Accueil</a>
+            <a href="../index.html#aventures">Aventures</a>
+            <a href="../index.html#activites">Activités</a>
+        </div>
+    </nav>
+
+    <main class="crafts-main">
+        <div class="crafts-container">
+            <div class="crafts-content">
+                <div class="crafts-header">
+                    <h1>Bricolages Ohana</h1>
+                    <p>Crée ton propre univers Stitch avec des projets amusants !</p>
+                    <div class="crafts-progress">
+                        <div class="difficulty-levels">
+                            <span class="difficulty easy">Facile</span>
+                            <span class="difficulty medium">Intermédiaire</span>
+                            <span class="difficulty hard">Expert</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="craft-card" data-craft="peluche">
+                        <div class="craft-image">
+                            <img src="../images/peluche.jpg" alt="Peluche Stitch">
+                            <div class="craft-overlay">
+                                <span class="craft-emoji">🧸</span>
+                            </div>
+                        </div>
+                        <div class="craft-content">
+                            <h3>Mini Peluche Stitch</h3>
+                            <p>Crée ta propre peluche Stitch avec du feutrine et du rembourrage !</p>
+                            <div class="craft-features">
+                                <span class="feature">30 minutes</span>
+                                <span class="feature">Facile</span>
+                                <span class="feature">Couture</span>
+                            </div>
+                            <button class="activity-btn tutorial-btn">Voir le Tutoriel →</button>
+                        </div>
+                    </div>
+
+                    <div class="craft-card" data-craft="marque-page">
+                        <div class="craft-image">
+                            <img src="../images/marque-page.jpg" alt="Marque-page Stitch">
+                            <div class="craft-overlay">
+                                <span class="craft-emoji">📚</span>
+                            </div>
+                        </div>
+                        <div class="craft-content">
+                            <h3>Marque-page Stitch</h3>
+                            <p>Un adorable marque-page en papier pour tes lectures préférées !</p>
+                            <div class="craft-features">
+                                <span class="feature">15 minutes</span>
+                                <span class="feature">Très Facile</span>
+                                <span class="feature">Papier</span>
+                            </div>
+                            <button class="activity-btn tutorial-btn">Voir le Tutoriel →</button>
+                        </div>
+                    </div>
+
+                    <div class="craft-card" data-craft="lanterne">
+                        <div class="craft-image">
+                            <img src="../images/lanterne.jpg" alt="Lanterne Spatiale">
+                            <div class="craft-overlay">
+                                <span class="craft-emoji">🌟</span>
+                            </div>
+                        </div>
+                        <div class="craft-content">
+                            <h3>Lanterne Spatiale</h3>
+                            <p>Une lanterne magique inspirée du vaisseau spatial de Stitch !</p>
+                            <div class="craft-features">
+                                <span class="feature">45 minutes</span>
+                                <span class="feature">Intermédiaire</span>
+                                <span class="feature">Peinture</span>
+                            </div>
+                            <button class="activity-btn tutorial-btn">Voir le Tutoriel →</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="crafts-sidebar">
+                <div class="tools-showcase">
+                    <h3>Outils Recommandés</h3>
+                    <div class="tools-list">
+                        <div class="tool-item">
+                            <span class="tool-icon">✂️</span>
+                            <div class="tool-info">
+                                <h4>Ciseaux</h4>
+                                <p>Pour enfants, bouts arrondis</p>
+                            </div>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">🖌️</span>
+                            <div class="tool-info">
+                                <h4>Pinceaux</h4>
+                                <p>Différentes tailles</p>
+                            </div>
+                        </div>
+                        <div class="tool-item">
+                            <span class="tool-icon">📏</span>
+                            <div class="tool-info">
+                                <h4>Règle</h4>
+                                <p>30cm, transparente</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tips-box">
+                    <h3>Astuces du Jour</h3>
+                    <div class="tips-carousel">
+                        <div class="tip-card active">
+                            <p>Protège ta surface de travail avec du papier journal !</p>
+                        </div>
+                        <div class="tip-card">
+                            <p>N'oublie pas de te laver les mains après avoir utilisé de la peinture.</p>
+                        </div>
+                        <div class="tip-card">
+                            <p>Demande l'aide d'un adulte pour les étapes difficiles.</p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <div class="tutorial-modal hidden">
+        <div class="modal-content">
+            <button class="close-modal">×</button>
+            <div class="tutorial-content">
+                <!-- Le contenu du tutoriel sera chargé dynamiquement -->
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/bricolages.js"></script>
+</body>
+</html>
